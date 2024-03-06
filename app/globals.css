@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0; /* Remove the default margin */
+}
+
+/* Hide the spinner arrows in Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.no-scroll-number-input::-webkit-inner-spin-button,
+.no-scroll-number-input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4caf50; /* Background color for the avatar */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff; /* Text color for the initial */
+  font-size: 24px; /* Font size of the initial */
+}
+
+.avatar-initial {
+  text-transform: uppercase; /* Ensure the letter is uppercase */
+}
+html {
+  scroll-behavior: smooth;
+}
