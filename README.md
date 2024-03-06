@@ -1,36 +1,128 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">
+🌐 MERN Stack App (Nextjs14)
+</h1>
+<p align="center">
+MongoDB, Expressjs, React/Redux, Nodejs
+</p>
 
-## Getting Started
+<p align="center">
+   <a href="https://github.com/amazingandyyy/mern/blob/master/LICENSE">
+      <img src="https://img.shields.io/badge/License-MIT-green.svg" />
+   </a>
+   <a href="https://circleci.com/gh/amazingandyyy/mern">
+      <img src="https://circleci.com/gh/amazingandyyy/mern.svg?style=svg" />
+   </a>
+</p>
 
-First, run the development server:
+> MERN app,Tech Stacks-> MongoDB, Expressjs, React/Redux, TailwindCss, Github, Nodejs.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# Su Care - TV Service Website
+
+---
+
+Su Care is the ultimate destination for all your TV service needs. Our expert team offers a wide range of services, including repairs, installations, and maintenance, ensuring your television stays in top condition. With Su Care, you can experience hassle-free service and enjoy uninterrupted entertainment.
+
+---
+
+## Requirements
+
+- For development, you will only need Node.js and a node global package, NPM, installed in your environement.
+
+## Clone or Download
+
+```terminal
+$ git clone https://github.com/tarun-upadhyay/su-care-project
+$ yarn # or npm i
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Project structure
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```terminal
+    - package.json
+- app
+     - Pages
+        - page.tsx
+        - App.jsx
+     - Components
+         ---
+backend
+    - "https://6n9z548jx3.execute-api.ap-south-1.amazonaws.com/dev/backend/:path*",
+...
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Client-side usage(PORT: 3000)
 
-## Learn More
+```terminal
+$ yarn # or npm i     // npm install packages
+$ npm run dev          // run it locally
+```
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Prepare your secret
 
-## Deploy on Vercel
+- Inside ->.env
+- MONGO_URI
+- JWT_SECRET
+- JWT_LIFETIME
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+# Features.
+
+### We have created this application for two different types of users such as Manager and customer.
+
+# Customer
+
+- Homepage of Customer's website
+  
+
+![alt text](image-1.png)
+![alt text](image-2.png)
+![alt text](image-3.png)
+
+1. The website provides services information along with book now.
+
+![alt text](image-4.png)
+
+2. Login Page
+
+![alt text](image-5.png)
+
+3. Sign Up page
+
+![alt text](image-6.png)
+
+4. If we logined successfully so We will get the name or image of top right corner
+
+![alt text](image-7.png)
+ 
+5. Dashboard page
+
+![alt text](image-8.png)
+
+![alt text](image-9.png)
+
+### The features I showed are for customers, if products do not load or orders do not appear, please wait for a few minutes. 
+---
+
+# Manager
+
+## Only role manager can access this page or api-end points.
+
+- API are created and working on frontend part
+
+---
+# Thank you for your time 
+-   Thank you for using this application
+-   Feel free to ask any query.
+
+[My Github](https://github.com/tarun-upadhyay)
+https://github.com/tarun-upadhyay
+
+[My Portfolio](https://tarun-upadhyay.github.io/)
+https://tarun-upadhyay.github.io/
+
+[Email ME](mailto:tarunu88@gmail.com)
+
+---
