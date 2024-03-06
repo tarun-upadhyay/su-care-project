@@ -90,14 +90,3 @@ export const authOptions: AuthOptions = {
     }),
   ],
 };
-/**
- * old
- * clientId
- * 215634035099-qhv4cjplvqe287fg5stsfqguq4fkgimn.apps.googleusercontent.com
- * clientsecret
- * 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
- *
- *
- * 215634035099-mbm4q4na808erpgj3dl6m9co2r5i8r2b.apps.googleusercontent.com
- * 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
- */
